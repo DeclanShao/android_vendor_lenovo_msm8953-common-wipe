@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),msm8953-common)
+ifneq ($(filter TB8703N,$(TARGET_DEVICE)),)
 
 endif
